@@ -1,0 +1,3 @@
+# 使用Docker打包golang程序，[参看Dockerfile](./dockerfile)
+- 执行命令`docker build -t main .`打包生成镜像
+- 执行命令`docker run -p 8199:8199 --name main -d main`来运行镜像
